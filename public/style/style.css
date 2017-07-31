@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Rye');
+
+body {
+	background-image:url('background.jpg');
+	background-size: 100% 129%;
+}
+
+.container{
+	display: -webkit-flex;
+	display:flex;
+	flex-direction: row; 
+	justify-content: center;
+}
+
+
+.phrase {
+	background-image:url('speechbubble.png');
+	background-repeat:no-repeat;
+	font-family: 'Rye', cursive;
+	background-size: 300px 250px;
+	width: 300px;
+	height: 250px;
+	text-align: center;
+}
+
+.phrase p {
+	margin-top: 88px;
+	word-wrap: break-word;
+}
+
+.woody {
+	background-image:url('woody.png');
+	background-repeat:no-repeat;
+	position: relative;
+	top: 150px;
+	background-size: 340px 450px;
+	width: 400px;
+	height: 500px;
+	background-color: transparent;
+}
